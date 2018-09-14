@@ -19,9 +19,9 @@ MongoClient.connect('mongodb://localhost:27017/ToDoApp', (err, db) => {
     // });
 
     //find and delete one
-    // db.collection('Todos').findOneAndDelete({completed: false}).then((result) => {
-    //     console.log(result);
-    // });
+    db.collection('Todos').findOneAndDelete({completed: false}).then((result) => {
+        console.log(result);
+    });
 
     // db.collection('Users').deleteMany({name: 'Umer Saleem'}).then((result) => {
     //     console.log(result);
