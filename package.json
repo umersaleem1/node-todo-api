@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha server/**/*.test.js",
-    "test-watch":  "nodemon --exec 'npm test'"
+    "test-watch": "nodemon --exec 'npm test'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongodb": "^2.2.5",
-    "mongoose": "^5.2.14"
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.2.15"
   },
   "devDependencies": {
     "expect": "^23.6.0",
